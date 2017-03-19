@@ -15,11 +15,11 @@
 ### to do
 ---
 - /etc/apache2/apache2.conf config 수정 (allowoverride None -> allowoverride ALL)
-``bash
+```bash
 <Directory /var/www/>
     ┆   Options Indexes FollowSymLinks
     ┆   AllowOverride None  --> AllowOverride ALL
     ┆   Require all granted
 </Directory>
-``
-- entrypoint.sh 실행방법 개선`
+```
+- entrypoint.sh 실행방법 개선
